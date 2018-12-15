@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
 run apt update
 run apt install -y openvpn 
-ADD ./scripts /scripts
+run apt install -y curl inetutils-ping net-tools
+
